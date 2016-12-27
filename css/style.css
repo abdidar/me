@@ -1,0 +1,262 @@
+body {
+    background-color: bisque;
+}
+
+.main {
+    min-height: 1000px;
+    width: 100%;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-color: aquamarine;
+    float: left;
+    /*margin:0px 55px;
+    padding: 50px 0 0 0;*/
+     background-image: url(../img/pondering.jpg)
+}
+
+.main .a .a1 {
+    height: 160px;
+    width: 10px;
+    background-color: fuchsia;
+    float: left;
+    margin: 10px 10px 10px 60px;
+    transform: skew(-30deg)
+}
+
+.main .a .a2 {
+    height: 5px;
+    width: 130px;
+    background-color: darkorange;
+    float: left;
+    margin: 125px 0 0 -37px;
+}
+
+.main .a .a3 {
+    height: 160px;
+    width: 10px;
+    background-color: burlywood;
+    float: left;
+    margin: 10px 10px 10px -22px;
+    transform: skew(30deg)
+}
+
+.main .b {
+    height: 80px;
+    width: 80px;
+    border: 5px solid #ff0000;
+    float: left;
+    border-radius: 0 50px 50px 0;
+    margin: 5px 10px 10px 50px;
+}
+
+.main .b1 {
+    height: 80px;
+    width: 80px;
+    border: 5px solid #ff0000;
+    border-radius: 0 50px 50px 0;
+    margin: 85px 10px 10px 223px;
+}
+
+.main .c {
+    height: 20px;
+    width: 20px;
+    background-color: azure;
+    border-radius: 50%;
+    float: left;
+    margin: -43px 0 0 320px;
+}
+
+.main .d {
+    height: 150px;
+    width: 120px;
+    border-radius: 0 50px 50px 0;
+    border: 5px solid #f1c40f;
+    margin: -180px 0 0 350px;
+}
+
+.main .e {
+    background-color: red;
+    height: 160px;
+    width: 10px;
+    margin: -160px 0 0 498px;
+}
+
+.main .f {
+    height: 150px;
+    width: 120px;
+    border-radius: 0 50px 50px 0;
+    border: 5px solid #f1c40f;
+    margin: -180px 0 0 519px;
+    float: left;
+}
+
+.main .g .a1 {
+    height: 160px;
+    width: 10px;
+    background-color: fuchsia;
+    float: left;
+    margin: -180px 10px 10px 690px;
+    transform: skew(-30deg)
+}
+
+.main .g .a2 {
+    height: 5px;
+    width: 130px;
+    background-color: red;
+    float: left;
+    margin: -65px 10px 10px 675px;
+}
+
+.main .g .a3 {
+    height: 160px;
+    width: 10px;
+    background-color: #f39c12;
+    float: left;
+    margin: -180px 0px 0px 780px;
+    transform: skew(30deg)
+}
+
+.main .h {
+    background-color: red;
+    height: 160px;
+    width: 7px;
+    margin: -160px 0 0 850px;
+}
+
+.main .i {
+    height: 80px;
+    width: 80px;
+    border: 5px solid #d35400;
+    float: left;
+    border-radius: 0 50px 50px 0;
+    margin: -180px 10px 10px 850px;
+}
+
+.main .j {
+    height: 75px;
+    width: 10px;
+    background-color: #f39c12;
+    float: left;
+    margin: -95px 0px 0px 890px;
+    transform: skew(40deg)
+}
+
+.main .k {
+    height: 200px;
+    width: 300px;
+    background-color: green;
+    float: left;
+    margin: -170px 0 0 1000px;
+}
+
+.main .k .k1 {
+    height: 90px;
+    width: 90px;
+    background-color: red;
+    float: left;
+    margin: 60px 90px;
+    border-radius: 50%;
+}
+
+.main .l {
+    height: 40px;
+    z-index: 1;
+    width: 50px;
+    background-color: dimgray;
+    float: left;
+    margin: 10px 10px 10px 60px;
+    transform: skew(-30deg)
+}
+
+.main .m {
+    z-index: 1;
+    height: 40px;
+    width: 50px;
+    background-color: dimgray;
+    float: left;
+    margin: 10px 0 0 -37px;
+}
+
+.main .n {
+    z-index: 1;
+    height: 40px;
+    width: 50px;
+    background-color: dimgray;
+    float: left;
+    margin: 10px 10px 10px -21px;
+    transform: skew(-30deg)
+}
+
+.main .o {
+    z-index: 1;
+    height: 40px;
+    width: 50px;
+    background-color: dimgray;
+    float: left;
+    margin: 10px 10px 10px -5px;
+    transform: skew(-30deg)
+}
+
+.main .p {
+    z-index: -1;
+    height: 40px;
+    width: 50px;
+    background-color: dimgray;
+    float: left;
+    margin: 10px 0 0 -27px;
+}
+
+.main .q {
+    z-index: 1;
+    height: 40px;
+    width: 50px;
+    background-color: dimgray;
+    float: left;
+    margin: 10px 10px 10px -11px;
+    transform: skew(-30deg)
+}
+
+.main .r {
+    height: 500px;
+    width: 500px;
+    background-color: darkblue;
+    margin: 250px 400px 400px 700px;
+    position: relative;
+}
+
+.main .r .box1 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    top:-30px;
+    left: -30px;
+}
+
+.main .r .box2 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    top:-30px;
+    right: -30px;
+}
+
+.main .r .box3 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+}
+
+.main .r .box4 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+}
